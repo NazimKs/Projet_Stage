@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+
+  }
+
+
+.home-container {
+    background: url('./images/MSC_background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.home-container-bg {
+   background-color: rgba(0,0,0,0.3); 
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.home-container-poster {
+    width: 650px;
+    height: 500px;
+    border-radius: 3rem;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container-poster h1 {
+    font-family: inherit;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.home-container-poster p {
+    font-size: 28px;
+    padding: 0 32px;
+}
+
+.home-container-poster button {
+    padding: 16px 36px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 24px;
+    border: 0;
+    background-color: #EED484;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-container-poster .right-arrow {
+    margin-left: 16px;
+    background: url('./images/right-arrow.png') no-repeat center center/cover;
+    width: 30px;
+    height: 30px;
+}
+
+.about-container {
+    background: url('./images/MSC_background2.webp') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.about-container-bg {
+    background-color: rgba(0,0,0,0.3); 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .about-container-poster {
+    width: 70%;
+    height: 80%;
+    border-radius: 0 6rem;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-container-poster h1 {
+    font-family: inherit;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 0 36px;
+    margin: 24px 0;
+}
+
+.about-container-poster p {
+    font-size: 24px;
+    padding: 0 48px;
+    line-height: 140%;
+}
+
+.conge-form-container {
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-conge {
+    background: url('./images/msc_logo.png') no-repeat center center/cover;
+    height: 60px;
+    width: 60px;
+    padding: 24px;
+}
+
+
+
+.conge-form-container-bg {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conge-form-container-bg h1 {
+    text-align: center;
+}
+
+.form-container button {
+    padding: 16px 36px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 24px;
+    border: 0;
+    background-color: #EED484;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(238, 212, 132,0.4);
+    width: 80vw;
+    border-radius: 30px;
+}
+.form-elem {
+    display:flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.form-container label {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.form-container input {
+    padding: 12px 10px;
+    border-radius: 8px;
+    border-color: gray;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+.form-container select {
+    padding: 12px 30px;
+    border-radius: 8px;
+    border-color: gray;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+
+
+.elem1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.text-el {
+    display: flex;
+    justify-content: flex-start;
+}
+
+input[type=checkbox] {
+    margin: 10px;
+}
+
+.contact-container {
+    background-color: #F1F5F2;
+}
+
+.copyright {
+    text-align: center;
+    color: #A9A9AC;
+    padding: 25px;
+}
+.contact-container-bg {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.contact-elem {
+    display: flex;
+    margin: 15px;
+}
+
+.contact-elem .bg-img {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.title h3{
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.contact-elem .email {
+    background: url('./images/letter.png') no-repeat center center/cover;
+}
+
+.contact-elem .tel {
+    background: url('./images/call.png') no-repeat center center/cover;
+}
+
+.contact-elem .location {
+    background: url('./images/maps.png') no-repeat center center/cover;
+}
+
+.suivre-elements {
+    display: flex;
+}
+
+.suivre-elem {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.facebook {
+    background: url('./images/facebook.png') no-repeat center center/cover;
+}
+
+.instagram {
+    background: url('./images/instagram.png') no-repeat center center/cover;
+}
+
+.twitter {
+    background: url('./images/twitter.png') no-repeat center center/cover;
+}
+
+.linkedin {
+    background: url('./images/linkedin.png') no-repeat center center/cover;
+}
+
+
+
+
+
